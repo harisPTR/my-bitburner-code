@@ -3,7 +3,7 @@ export async function main(ns) {
 	ns.disableLog("getServerMoneyAvailable");
 	ns.disableLog("sleep");
 	let mincost;
-	let maxnodes = 40;
+	let maxnodes = 20;
 	let lvlstep = 1;
 	let upgrd = 1;
 	let lvl, ram, crs, cch, np;
